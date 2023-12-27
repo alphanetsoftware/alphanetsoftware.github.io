@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>AlphaNet Software</title>
         <style>
             #container {
@@ -12,7 +13,8 @@
                 z-index: -1;
             }
             .center-box {
-                width: 30%;
+                width: 50%;
+                max-width: 500px;
                 height: auto;
                 background-color: rgba(109, 109, 109, 0.2);
                 margin-top:12vh;
@@ -28,13 +30,9 @@
                 text-align: center;
                 justify-content: center;
                 font-family: "Courier New", Courier, monospace;
+                font-size: 16px;
                 color: rgba(234, 232, 228, 1);
             }
-            @media screen and (max-width: 768px) {
-                .center-box {
-                    width: 90%; /* Use up most of the horizontal space on small screens */
-            }
-    }
         </style> 
     </head>
     <body>
