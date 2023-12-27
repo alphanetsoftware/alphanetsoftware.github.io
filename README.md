@@ -1,6 +1,6 @@
-# www.alphanetsoftware.com
+# AlphaNet Software Website
 
-This is the public website for AlphaNet Software. The website is hosted using Github Pages.
+This is the public website for AlphaNet Software at www.alphanetsoftware.com. The website is hosted using Github Pages.
 
 To edit the website, edit the index.html file and they should be reflected at www.alphanetsoftware.com.
 
