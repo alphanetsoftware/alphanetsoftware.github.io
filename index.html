@@ -11,12 +11,24 @@
                 top: 0px;
                 z-index: -1;
             }
+            .center-box {
+                width: 300px;
+                height: 200px;
+                background-color: lightgray;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
         </style>
     </head>
     <body>
-        <h1>AlphaNet Software</h1>
-        <p>We create software that makes doing business better, cheaper and faster</p>
+
         <div id="container"></div>
+        <div class="center-box">
+            <h1>AlphaNet Software</h1>
+            <p>We create software that makes doing business better, cheaper and faster</p>
+        </div>
         <script src="background.js"></script>
         <script>
             var container = document.getElementById('container');
