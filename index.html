@@ -12,7 +12,8 @@
                 z-index: -1;
             }
             .center-box {
-                width: 500px;
+                width: 50%;
+                max-width: 500px;
                 height: auto;
                 background-color: rgba(109, 109, 109, 0.2);
                 margin-top:120px;
@@ -29,6 +30,11 @@
                 justify-content: center;
                 font-family: "Courier New", Courier, monospace;
                 color: rgba(234, 232, 228, 1);
+            }
+            @media screen and (max-width: 768px) {
+                .center-box {
+                    width: 90%; /* Use up most of the horizontal space on small screens */
+                }
             }
         </style> 
     </head>
